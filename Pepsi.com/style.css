@@ -1,0 +1,595 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+*::selection{
+    color: #032056;
+    background-color: #ffffff;
+}
+/*
+=============== 
+Navbar
+===============
+*/
+nav{
+    padding: 28px;
+    background-color: #0065C3;
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    top: 0;
+}
+.pepsiLogo{
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ;
+    opacity: 1;
+    position: absolute;
+    margin-top: -30px;
+}
+.pepsiLogo:hover{
+    cursor: pointer;
+    transform: rotate(360deg);
+    transition: all 0.3s ;
+}
+nav ul li{
+    display: inline-block;
+}
+.nav{
+    font-family: "Sofia Pro Black", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+    margin-right: 2rem;
+    place-items: center;
+}
+.nav1{
+    padding-left: 120px;
+}
+.fa-solid{
+    padding-left: 10px;
+}
+
+.button {
+    color: #ffffff;
+    padding: 0.4em 1.95em;
+    margin-right: 100px;
+    float: right;
+    background-color: transparent;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 600;
+    font-size: 14px;
+    border: 2px solid;
+    font-family: "Sofia Pro Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.button:hover {
+    color: #0065C3;
+    background-color: #ffffff;
+    cursor: pointer;
+    box-shadow: 0 2px 13px #ffffff;
+    border: 2px solid white;
+}
+
+/*
+=============== 
+fist section
+===============
+*/
+
+.first-section{
+    background-color: black;
+ }
+.new-improved-taste{
+    position: absolute;
+    z-index: 1;
+    top: 110px;
+    left: 450px;
+    height: 170px;
+}
+.first-section h2{
+    position: absolute;
+    font-size: 170px;
+    font-weight: 900;
+    color: #ffffff;
+   padding: 115px 0 0 700px;
+   font-family: "Cervo Neue Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.first-section h3{
+    position: absolute;
+    font-size: 60px;
+    font-weight: 800;
+    color: #ffffff;
+   padding: 300px 0 0 700px;
+   font-family: "Cervo Neue Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.first-section h4{
+    position: absolute;
+    font-size: 100px;
+    font-weight: 800;
+    color: #ffffff;
+   padding: 340px 0 0 700px;
+   font-family: "Cervo Neue Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.first-section h5{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 1000;
+    color: #ffffff;
+   padding: 460px 0 0 770px;
+   font-family: "Cervo Neue Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.improve{
+    position: absolute;
+    height: 40px;
+    padding: 460px 0 0 1100px;
+}
+.videos{
+    position: absolute;
+    height: 170px;
+    padding: 500px 0 0 700px;
+}
+.videos:hover{
+    cursor: pointer;
+}
+
+/*
+=============== 
+second section
+===============
+*/
+.background{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+}
+.nitro{
+    position: absolute;
+    height: 600px;
+    left: 240px;
+    top: 680px;
+}
+.second-section h4{
+    font-family: "Sofia Pro Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    position: absolute;
+    color: #ffffff;
+    padding: 140px 0 0 780px;
+    letter-spacing: 8px;
+}
+.second-section h2{
+    font-family: "Sofia Pro Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 150px;
+    font-weight: 1000;
+    position: absolute;
+    color: #C1693B;
+    padding: 150px 0 0 700px;
+}
+.second-section .nitro-logo{
+    width: 400px;
+    position: absolute;
+    color: #ffffff;
+    padding: 200px 0 0 800px;
+}
+
+.second-section h6{
+    font-family: "Cervo Neue Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 1000;
+    position: absolute;
+    color: #ffffff;
+    padding: 455px 0 0 818px;
+}
+.second-section button{
+    font-family:"Sofia Pro Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+    position: absolute;
+    color: #ffffff;
+    border-radius: 50px;
+    background: transparent;
+    margin: 500px 0 0 850px;
+    padding: 8px 25px;
+    border: 2px solid #ffffff;
+    transition: .5s;
+    display: inline-block;
+}
+.second-section button:hover {
+    color: #032056;
+    background-color: #ffffff;
+    cursor: pointer;
+    box-shadow: 0 2px 13px #ffffff;
+}
+/*
+=============== 
+third section
+===============
+*/
+
+.third-section{
+    height: 500px;
+    padding-top: 600px;
+}
+.background1{
+    width: 100%;
+    height: 630px;
+    position: absolute;
+}
+.text{
+    position: absolute;
+    padding: 470px 0 0 840px;
+    z-index: 2;
+    height: 150px;
+}
+
+.people{
+    position: absolute;
+    padding-left:440px;
+    height: 90%;
+    width: 67%;
+    padding-top: 20px;
+}
+.drink{
+    position: absolute; 
+    padding:60px 0 0 40px;
+    height: 240px;
+     width: 370px;
+}
+.eat{
+    position: absolute;
+    padding: 350px 0 0 40px;
+    height: 240px;
+    width: 370px;
+}
+.pepsiRibs{
+    font-family: "Sofia Pro Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 18px;
+    margin: 300px 0 0 40px;
+    position: absolute;
+    background-color: #032056d7;
+    padding: 10px 80px;
+    border: none;
+}
+.nachos{
+    font-family: "Sofia Pro Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 18px;
+    margin: 585px 0 0 40px;
+    position: absolute;
+    background-color: #032056ef;
+    padding: 10px 64px;
+    border: none;
+}
+
+/*
+=============== 
+fourth section
+===============
+*/
+
+.background3{
+    width: 100%;
+    height: 725px;
+    position: absolute;
+    padding-top: 130px;
+}
+.bg-3-desktop{
+    height: 720px;
+    position: absolute;
+    padding: 124px 0 0 432px;
+    z-index: 2;
+}
+.bg-3-text{
+    width: 100%;
+    height: 695px;
+    position: absolute;
+    padding-top: 170px;
+    z-index: 1;
+}
+.text3{
+    position: absolute;
+    padding: 200px 0 0 50px;
+    z-index: 1;
+    height: 270px;
+    width: 370px;
+}
+.text03{
+    position: absolute;
+    padding: 750px 0 0 70px;
+    z-index: 2;
+    height: 30px;
+}
+
+/*
+=============== 
+fifth section
+===============
+*/
+
+.fifth-section video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    padding-top: 820px;
+    z-index: 2;
+}
+
+/*
+=============== 
+sixth section
+===============
+*/
+
+.background4{
+    width: 100%;
+    height: 770px;
+    padding-top: 1410px;
+    position: absolute;
+}
+.pepsi4{
+    height: 680px;
+    padding-top: 1500px;
+    position: absolute;
+    filter: drop-shadow(10px 10px 20px gray);
+}
+.text4{
+    height: 350px;
+    padding: 1600px 0 0 800px;
+    position: absolute;
+}
+
+/*
+=============== 
+seventh section
+===============
+*/
+
+.background5{
+    width: 100%;
+    height: 550px;
+    padding-top: 2180px;
+    position: absolute;
+}
+.can{
+    width: 570px;
+    height: 280px;
+    padding: 2250px 0 0 650px;
+    position: absolute;
+    filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.584));
+}
+.can-head h2{
+    font-family: "Sofia Pro Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    position: absolute;
+    color: #ffffff;
+    padding: 2250px 800px 0 110px;
+}
+.can-head h3{
+    font-family: "Cervo Neue Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 45px;
+    font-weight: 800;
+    position: absolute;
+    color: #ffffff;
+    padding: 2300px 500px 0 110px;
+}
+.can-head h4{
+    font-family: "Cervo Neue Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 45px;
+    font-weight: 800;
+    position: absolute;
+    color: #ffffff;
+    padding: 2350px 800px 0 110px;
+}
+.can-head p{
+    font-family: "Cervo Neue Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 500;
+    position: absolute;
+    color: #ffffff;
+    padding: 2425px 800px 0 110px;
+    word-spacing: 4px;
+}
+.button1 {
+    color: #ffffff;
+    margin: 2520px 0 10px 120px ;
+    padding: 10px 15px;
+    background-color: transparent;
+    border-radius: 20px;
+    position: relative;
+    transition: .5s;
+    font-weight: 600;
+    font-size: 14px;
+    border: 2px solid;
+    font-family: "Sofia Pro Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.button1:hover {
+    cursor: pointer;
+    color: #0065C3;
+    background-color: #ffffff;
+    border: 2px solid white;
+    box-shadow: 0 2px 13px #ffffff;
+}
+
+/*
+=============== 
+eighth section
+===============
+*/
+
+.eighth-section{
+    height: 320px;
+    width: 100%;
+   position: absolute;
+   background-color: #ffffff;
+}
+.eighth-section h1{
+   font-family: "Cervo Neue Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-size: 50px;
+   font-weight: 800;
+   color: #0065C3;
+   padding-left: 180px;
+}
+.eighth-section img{
+   overflow: hidden;
+   object-fit: cover;
+   display: inline-block;
+   height: 240px;
+   transition: 0.3s ease;
+}
+.icon1{
+   padding-left: 70px;
+}
+.fa-brands, .fa-twitter{
+ position: absolute;
+ font-size: 30px;
+ bottom: 20px;
+ left: 90px;
+ color: #ffffff;
+}
+.fa-square-facebook{
+ left: 330px;
+}
+.fa-instagram{
+   left: 580px;
+}
+.fa-youtube{
+   left: 820px;
+}
+.fa-tiktok{
+   left: 1080px;
+}
+.eighth-section{
+    overflow: hidden;
+}
+.icon-h{
+    transition: transform .5s ease;
+}
+.icon-h:hover {
+    filter: brightness(50%);
+    transform: rotate(10deg);
+    transition: all 0.3s ease-in-out 0s;
+    transform: scale(1.2);
+}
+
+/*
+=============== 
+footer
+===============
+*/
+
+.footer{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    background-color: #0065C3;
+    margin-top: 310px;
+    position: absolute;
+} 
+.logo1{
+    height: 90px;
+    padding: 110px 0 0 50px;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ;
+    opacity: 1;
+    position: absolute;
+    
+}
+.logo1:hover{
+    cursor: pointer;
+    transform: rotate(360deg);
+    transition: all 0.3s ;
+
+}
+.link1{
+    padding-top: 120px !important;
+}
+.line1 li{
+    list-style: none;
+    font-family: "Cervo Neue Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    color: #ffffff;
+    padding-left:150px;
+    line-height: 25px;
+}
+.line2 li{
+    list-style: none;
+    font-family: "Cervo Neue Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 800;
+    color: #ffffff;
+    padding-left:50px;
+}
+.line3 li{
+    list-style: none;
+    font-family: "Cervo Neue Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 800;
+    color: #ffffff;
+    padding-left: 70px;
+}
+.footer ul li:hover{
+    color: rgba(108, 215, 241, 0.711);
+    cursor: pointer;
+}
+.button2{
+    color: #ffffff;
+    margin: 110px 0 0 1020px ; 
+     padding: 10px 14px;
+    background-color: transparent;
+    border-radius: 50px;
+    position: absolute;
+    transition: .5s;
+    font-weight: 600;
+    font-size: 14px;
+    border: 2px solid;
+    font-family: "Sofia Pro Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.button2:hover {
+    cursor: pointer;
+    color: #0065C3;
+    background-color: #ffffff;
+    border: 2px solid white;
+    box-shadow: 0 2px 13px #ffffff;
+}
+.twit{
+    padding:0 0 80px 910px !important;
+    
+}
+.fb{
+    padding: 0 0  80px 730px !important;
+}
+.insta{
+    padding:0 0 80px 540px !important;
+}
+.yt{
+    padding:0 0 80px 359px !important;
+}
+.tk{
+    padding:0 0 80px 170px !important;
+}
+.fa-brands:hover{
+    color: rgba(108, 215, 241, 0.711);
+    cursor: pointer;
+}
