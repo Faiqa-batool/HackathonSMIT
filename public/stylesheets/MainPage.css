@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+
+
+body {
+  margin: 0;
+  background-color: #DFB7E3;
+  background: linear-gradient(to right, white, #DFB7E3);
+  font-family: "Nunito", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #dbe1e8;
+  padding: 2.5em;
+  border-radius: 1rem;
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header a.logo {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #0460bc;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  width: 45%;
+  z-index: 2;
+  background-color: #fff;
+  transform: translateX(100%);
+  transition: translateX .5s ease-in-out;
+}
+
+.toggle-menu {
+  transform: translateX(0);
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.5em;
+}
+
+.close {
+  cursor: pointer;
+    display: block;
+    margin: 4em auto;
+}
+
+nav ul li a {
+  font-size: 1.8rem;
+  color: #000;
+}
+
+ul li.active {
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: #0460BC;
+}
+
+.btn {
+  display: flex;
+  gap: 2.2em;
+}
+
+button {
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c3ccd7;
+  padding: 0.4em 0.8em;
+  cursor: pointer;
+  gap: 0.4em;
+  border-radius: 0.4em;
+  color: #000;
+  font-size: 1.8rem;
+}
+
+button p {
+  margin: 0;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #0460bc;
+}
+
+span {
+    width: 450px;
+    height: 35px;
+    background-color: #DBE1E8;
+    margin-top: 9.7em;
+    margin-left: 12.2em;
+    border-radius: 4.5em;
+}
+
+/* .spTwo {
+    width: 300px;
+    margin-top: 2.4em;
+}  */
+
+@media (min-width: 700px) {
+  .hamburger, .close {
+    display: none;
+  }
+  
+  .hide-mobile {
+    display: block;
+  }
+  
+  nav {
+    position: unset;
+    height: auto;
+    background: none;
+    width: auto;
+    transform: translateX(0);
+  }
+  ul {
+    flex-direction: row;
+    gap: 3.6em;
+  }
+  
+  ul li.active {
+    font-weight: bold;
+    border-bottom: 2px solid #0460bc;
+  }
+}

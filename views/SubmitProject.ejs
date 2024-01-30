@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Projects </title>
+    <link rel="stylesheet" href="/stylesheets/MainPage.css">
+</head>
+<body>
+    <header>
+        <div class="wrapper navbar">
+           <a href="#" class="logo">Project Showcase Saga</a>
+          
+         <nav>
+           <svg class="close" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+       <path d="M17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12L19 6.41L17.59 5Z" fill="black"/>
+       </svg>
+           <ul>
+             <li class="active"><a href="./MainPage.ejs">Home</a></li>
+             <li><a href="#">Submit Project</a></li>
+             
+           </ul>
+         </nav>
+         
+         <form action="/logout" method="post">
+            <div class="btn">
+              <button type="submit">
+              <i class="fa-solid fa-cart-shopping" aria-hidden="true"></i>
+              <p>Log Out</p>
+            </button>
+            
+            <svg class="hamburger" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M15 22.5H3.75V20H15V22.5ZM26.25 16.25H3.75V13.75H26.25V16.25ZM26.25 10H15V7.5H26.25V10Z" fill="black"/>
+          </svg>
+            </div>
+           </form>
+       </div>
+       </header>
+       <form action="/submitProject" method="post" class="project-form">
+        <h2>Project Submission</h2>
+        <label for="projectTitle">Project Title:</label>
+        <input type="text" id="projectTitle" name="projectTitle" required>
+
+        <label for="developerName">Developer Name:</label>
+        <input type="text" id="developerName" name="developerName" required>
+
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" rows="4" required></textarea>
+
+        <label for="hostedUrl">Hosted URL:</label>
+        <input type="url" id="hostedUrl" name="hostedUrl" required>
+
+        <button type="submit">Submit Project</button>
+    </form>
+       <!-- <span class="hide-mobile"></span>
+        <span class="spTwo hide-mobile"></span> -->
+    
+    <script src="/javascripts/MainPage.js"></script>
+</body>
+</html>

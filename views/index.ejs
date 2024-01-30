@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="../stylesheets/style.css">
+</head>
+<body>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <div id="container">
+        <div class="top">
+            <h1>Login Page</h1>
+        </div>
+        <form action="/login" method="post">
+            <input type="text" name="username" placeholder="Username" class="input" name="username">
+            <input type="email" placeholder="Email" class="input" name="email">
+            <input type="password" placeholder="Password" class="input" name="password">
+            <div class="login_option">
+                <a href="#" class="account"><i class="fa-brands fa-google" style="color: #000000;"></i></a>
+                <a href="#" class="account"><i class="fa-brands fa-github" style="color: #000000;"></i></i></a>
+                <a href="#" class="account"><i class="fa-brands fa-twitter" style="color: #000000;"></i></a>
+            </div>
+            <button name="login" type="submit">Sign In</button>
+            <a href=# class="signup" onclick="switchAccount()">
+                Do not have an account yet ?
+            </a>
+        </form>
+    </div>
+    <div id="container2">
+        <div class="top">
+            <h1>Sign Up Page</h1>
+        </div>
+        <form action="/register" method="post">
+            <input type="username" placeholder="Username" class="input" name="username" id="username">
+            <input type="name" placeholder="Name" class="input" name="name" id="name">
+            <input type="email" placeholder="Email" class="input" name="email" id="email">
+            <input type="password" placeholder="Password" class="input" name="password" id="password">
+            
+            
+            <div class="login_option">
+                <a href="#" class="account"><i class="fa-brands fa-google" style="color: #000000;"></i></a>
+                <a href="#" class="account"><i class="fa-brands fa-github" style="color: #000000;"></i></i></a>
+                <a href="#" class="account"><i class="fa-brands fa-twitter" style="color: #000000;"></i></a>
+            </div>
+            <button name="signup" type="submit">Sign Up</button>
+            <a href=# class="signup" onclick="switchAccount2()">
+                Already have an account ?
+            </a>
+        </form>
+    </div>
+    <script src="../javascripts/login.js"></script>
+</body>
+</html>
