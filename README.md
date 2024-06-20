@@ -1,3 +1,3 @@
 #HackathonSMIT
 
-## A Project Showcase App for Students
+## A Project Sharing App for Students
